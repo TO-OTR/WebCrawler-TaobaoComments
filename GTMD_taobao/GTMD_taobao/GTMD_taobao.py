@@ -14,7 +14,7 @@ sheet_name = 'Taobao_Comments'
 Taobao_Comments_excel = Workbook(excel_name)
 Taobao_Comments_excel = Workbook(encoding = 'utf-8')
 Taobao_Comments_sheet = Taobao_Comments_excel.add_sheet(sheet_name,cell_overwrite_ok=True)
-Taobao_Comments_sheet.write(0,0,u'序号')
+Taobao_Comments_sheet.write(0,0,u'NO.')
 Taobao_Comments_sheet.write(0,1,u'USER')
 Taobao_Comments_sheet.write(0,2,u'COMMENTS')
 Taobao_Comments_excel.save(excel_name)
